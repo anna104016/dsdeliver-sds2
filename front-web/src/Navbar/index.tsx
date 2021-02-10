@@ -1,4 +1,3 @@
-import { defaultCoreCipherList } from "constants"
 import './styles.css';
 import { ReactComponent as Logo, ReactComponent} from './logo-navbar.svg';
 
