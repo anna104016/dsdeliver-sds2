@@ -1,23 +1,19 @@
+import { formatPrice } from './Helpers';
 import { Product } from './types';
 
 
 type Props = {
     product: Product;
-}
-//FORMATAR PREÇO, UNIDADES DEPOIS DA VIRGULA E TUDO MAIS
-function formatPrice( price: number){
-    const formatter = new Intl.NumberFormat('pt-BR', {
-        style: 'currency',
-        currency: 'BRl',   
-        minimumFractionDigits: 2,
-    });
-
-    return formatter.format(price);
+    onSelectproduct: (product: Product)=> void;
+    isSelected: boolean;
 }
 
-function ProductCard({ product }: Props ){
+
+function ProductCard({ product, onSelectproduct, isSelected}: Props ){
     return(
-        <div className="order-card-container"> 
+        <div className={`order-card-container ${isSelected ? 'selected' : ''}`}
+            onClick={() => onSelectproduct(product)}
+        > 
             <h3 className="order-card-tittle">
                 {product.name}
             </h3>
