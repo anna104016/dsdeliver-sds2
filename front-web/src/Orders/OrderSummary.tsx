@@ -30,7 +30,6 @@ function OrderSummary( {amount, totalPrice, onSubmit}: Props ) {
                 >
                     FAZER PEDIDO
                 </button>
-
             </div>
         </div>
       
