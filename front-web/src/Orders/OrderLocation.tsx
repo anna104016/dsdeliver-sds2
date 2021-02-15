@@ -1,12 +1,13 @@
 import { useState } from 'react';
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 import AsyncSelect from 'react-select/async';
+import Select, { Props as SelectProps } from 'react-select';
 import { fetchLocalMapBox } from '../api';
 import { OrderLocationData } from './types';
 
 const initialPosition = {
-  lat: -18.9110558,
-  lng: -48.26201
+  lat: -2.5531267,
+  lng: -44.2139177
 }
 
 type Place = {
@@ -26,10 +27,10 @@ function OrderLocation({ onChangeLocation }: Props) {
   const [address, setAddress] = useState<Place>({
     position: initialPosition
   });
-
+  
   const loadOptions = async (inputValue: string, callback: (places: Place[]) => void) => {
     const response = await fetchLocalMapBox(inputValue);
-
+  
     const places = response.data.features.map((item: any) => {
       return ({
         label: item.place_name,
@@ -37,13 +38,12 @@ function OrderLocation({ onChangeLocation }: Props) {
         position: {
           lat: item.center[1],
           lng: item.center[0]
-        }
+        },
       });
     });
-
     callback(places);
   };
-
+  
   const handleChangeSelect = (place: Place) => {
     setAddress(place);
     onChangeLocation({
@@ -61,9 +61,9 @@ function OrderLocation({ onChangeLocation }: Props) {
         </h3>
         <div className="filter-container">
           <AsyncSelect
-            placeholder="Digite um endereço para entregar o pedido"
+            placeholder="Digite o endereço para entregar o pedido"
             className="filter"
-            //loadOptions={ loadOptions }
+            LoadOptions={loadOptions}
             onChange={value => handleChangeSelect(value as Place)}
           />
         </div>
