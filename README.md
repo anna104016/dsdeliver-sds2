@@ -18,14 +18,18 @@
 - React Native
 - Expo
 
-### layout do Projeto
+### Layout do Projeto
 
+### Home Page
 ![Home Page](https://github.com/anna104016/dsdeliver-sds2/blob/main/front-web/src/home%20DsDeliver.PNG)
 
+### Login Page
 ![Login Page](https://github.com/anna104016/dsdeliver-sds2/blob/main/front-web/src/login%20dsdeliver.PNG)
 
+### Location Page
 ![Location Page](https://github.com/anna104016/dsdeliver-sds2/blob/main/front-web/src/location%20dsdeliver.PNG)
 
+### Projeto Web
 ![DS DELIVER](https://github.com/anna104016/dsdeliver-sds2/blob/main/front-web/src/DS%20DELIVER.gif)
 
 
