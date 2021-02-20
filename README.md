@@ -21,7 +21,7 @@
 
 
 ### Clone esse repositório
-$ git clone https://github.com/ana104016/dsdeliver-sds2.git
+$ git clone https://github.com/anna104016/dsdeliver-sds2
 
 ### Instale dependencias
 $ npm install
