@@ -1,5 +1,8 @@
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import Home from "./Home";
+
+import Login from "./Login";
+
 import Navbar from "./Navbar";
 import Orders from "./Orders";
 
@@ -12,8 +15,13 @@ function Routes(){
                     <Orders />
                 </Route>
 
+
+                <Route path="/login">
+                    <Login />
+                </Route>
+
                 <Route path="/">
-                    <Home ></Home>
+                    <Home />
                 </Route>
             </Switch>
 

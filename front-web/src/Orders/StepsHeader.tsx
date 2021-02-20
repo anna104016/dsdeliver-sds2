@@ -5,7 +5,6 @@ function StepsHeader() {
                 <h1 className="steps-title">
                     SIGA AS <br /> ETAPAS
                 </h1>
-
                 <ul className="steps-items">
                     <li>
                         <span className="steps-number">1</span>
@@ -13,6 +12,10 @@ function StepsHeader() {
                     </li>
                     <li>
                         <span className="steps-number">2</span>
+                        Informe a forma de pagamento
+                    </li>
+                    <li>
+                        <span className="steps-number">3</span>
                         Depois clique depois em <strong>"ENVIAR PEDIDO"</strong>
                     </li>
                 </ul>

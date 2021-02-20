@@ -47,6 +47,7 @@
   
   .home-btn-order:hover {
     background-color: var(--primary-hover-color);
+    color: var(--light-color);
     transform: scale(1.01);
   }
   
