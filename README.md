@@ -1,7 +1,7 @@
-# Projeto Semana DevSuperior 2.0 - JANEIRO 2021! 
+# :pushpin: Projeto Semana DevSuperior 2.0 - JANEIRO 2021! 
 
 
-**LINGUAGENS DE DESENVOLVIMENTO:**
+**:large_blue_circle: LINGUAGENS DE DESENVOLVIMENTO:**
 
 ***Backend:***
 - Java
@@ -18,7 +18,7 @@
 - React Native
 - Expo
 
-### Layout do Projeto
+### :large_blue_circle: Layout do Projeto
 
 ### Home Page
 ![Home Page](https://github.com/anna104016/dsdeliver-sds2/blob/main/front-web/src/home%20DsDeliver.PNG)
@@ -33,7 +33,7 @@
 ![DS DELIVER](https://github.com/anna104016/dsdeliver-sds2/blob/main/front-web/src/DS%20DELIVER.gif)
 
 
-### Clone esse repositório
+### :large_blue_circle: Clone esse repositório
 $ git clone https://github.com/anna104016/dsdeliver-sds2
 
 ### Instale dependencias
