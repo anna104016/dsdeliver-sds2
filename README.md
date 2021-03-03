@@ -33,13 +33,9 @@
 ![DS DELIVER](https://github.com/anna104016/dsdeliver-sds2/blob/main/front-web/src/DS%20DELIVER.gif)
 
 
-### :large_blue_circle: Clone esse repositório
-$ git clone https://github.com/anna104016/dsdeliver-sds2
+#### :large_blue_circle: Clone esse repositório
+##### :one: ***$ git clone https://github.com/anna104016/dsdeliver-sds2
 
-### Instale dependencias
-$ npm install
+##### :two: Instale dependencias: ***$ npm install
 
-### Inicie o projeto
-
-$ npm start
-
+##### :three: Inicie o projeto: ***$ npm start
