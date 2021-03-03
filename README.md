@@ -1,35 +1,34 @@
 # :pushpin: Projeto Semana DevSuperior 2.0 - JANEIRO 2021! 
 
 
-####:large_blue_circle: LINGUAGENS DE DESENVOLVIMENTO:
+#### :large_blue_circle: LINGUAGENS DE DESENVOLVIMENTO:
 
-***Backend:***
+***:small_blue_diamond: Backend:***
 - Java
 - Spring Boot
 - PostgreSQL
 - Hospedado na nuvem no servidor Heroku
 
-**Frontend:**
+***:small_blue_diamond:Frontend:***
 - HTML, CSS, JS, Typescript
 - ReactJS
 
-
-**Mobile:**
+***:small_blue_diamond:Mobile:***
 - React Native
 - Expo
 
 #### :large_blue_circle: Layout do Projeto
 
-##### Home Page
+##### :small_blue_diamond: Home Page
 ![Home Page](https://github.com/anna104016/dsdeliver-sds2/blob/main/front-web/src/home%20DsDeliver.PNG)
 
-##### Login Page
+##### :small_blue_diamond: Login Page
 ![Login Page](https://github.com/anna104016/dsdeliver-sds2/blob/main/front-web/src/login%20dsdeliver.PNG)
 
-##### Location Page
+##### :small_blue_diamond: Location Page
 ![Location Page](https://github.com/anna104016/dsdeliver-sds2/blob/main/front-web/src/location%20dsdeliver.PNG)
 
-##### Projeto Web
+##### :small_blue_diamond: Projeto Web
 ![DS DELIVER](https://github.com/anna104016/dsdeliver-sds2/blob/main/front-web/src/DS%20DELIVER.gif)
 
 
