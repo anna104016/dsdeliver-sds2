@@ -33,7 +33,7 @@
 
 
 #### :large_blue_circle: Clone esse repositório
-##### :one: ***$ git clone https://github.com/anna104016/dsdeliver-sds2
+##### :one: ***$ git clone https://github.com/anna104016/dsdeliver-sds2***
 
 ##### :two: Instale dependencias: ***$ npm install***
 
