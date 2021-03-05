@@ -1,21 +1,44 @@
 import React from 'react';
-import { StyleSheet, Text, View, Image } from 'react-native';
+import { StyleSheet, Text, View } from 'react-native';
+import { Order } from '../types';
+import dayjs from 'dayjs';
+import 'dayjs/locale/pt-br';
+import relativeTime from 'dayjs/plugin/relativeTime';
 
+dayjs.locale('pt-br');
+dayjs.extend(relativeTime);
 
-function OrderCard() {
+type Props = {
+  order: Order
+}
 
+function dateFromNow(date: string){
+  return dayjs(date).fromNow();
+}
+
+export function formatPrice(price: number){
+  const formatter = new Intl.NumberFormat('pt-BR', {
+      style: 'currency',
+      currency: 'BRl',   
+      minimumFractionDigits: 2,
+  });
+
+  return formatter.format(price);
+}
+
+function OrderCard({ order }: Props) {
   return (
         <View style={styles.container}>
             <View style={styles.header}>
-                <Text style={styles.orderName}>Pedido 1</Text>
-                <Text style={styles.orderPrice}>R$ 50,00</Text>
+                <Text style={styles.orderName}>Pedido {order.id}</Text>
+                <Text style={styles.orderPrice}>{order.total}</Text>
             </View>
-            <Text style={styles.text}>Há 30 minutos</Text>
+            <Text style={styles.text}>{dateFromNow(order.moment)}</Text>
 
             <View style={styles.productsList}>
-                <Text style={styles.text}>Pizza 4 queijos</Text>
-                <Text style={styles.text}>Pizza Portuguesa</Text>
-                <Text style={styles.text}>Pizza Calabresa </Text>
+                {order.products.map(product => (
+                  <Text style={styles.text}>{product.name}</Text>
+                ))}
             </View>
         </View>
   );
