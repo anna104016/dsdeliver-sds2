@@ -17,7 +17,7 @@
 - React Native
 - Expo
 
-#### :large_blue_circle: Layout do Projeto
+#### :large_blue_circle: Layout do Projeto web
 
 ##### :small_blue_diamond: Home Page
 ![Home Page](https://github.com/anna104016/dsdeliver-sds2/blob/main/front-web/src/home%20DsDeliver.PNG)
@@ -31,6 +31,9 @@
 ##### :small_blue_diamond: Projeto Web
 ![DS DELIVER](https://github.com/anna104016/dsdeliver-sds2/blob/main/front-web/src/DS%20DELIVER.gif)
 
+#### :large_blue_circle: Layout do Projeto Mobile
+![Home Page](https://github.com/anna104016/dsdeliver-sds2/blob/main/front-mobile/assets/home%20mobile.png)![Home Page](https://github.com/anna104016/dsdeliver-sds2/blob/main/front-mobile/assets/pedidos%20mobile.png)![Home Page](https://github.com/anna104016/dsdeliver-sds2/blob/main/front-mobile/assets/detalhes%20pedido.png)
+![Home Page](https://github.com/anna104016/dsdeliver-sds2/blob/main/front-mobile/assets/confirmar%20pedido.png)
 
 #### :large_blue_circle: Clone esse repositório
 ##### :one: ***$ git clone https://github.com/anna104016/dsdeliver-sds2***
