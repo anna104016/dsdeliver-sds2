@@ -1,5 +1,6 @@
 # :pushpin: Projeto Semana DevSuperior 2.0 - JANEIRO 2021! 
 
+#### Sistema de delivery com pagina web e app mobile.
 
 #### :large_blue_circle: LINGUAGENS DE DESENVOLVIMENTO:
 
