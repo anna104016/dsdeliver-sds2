@@ -32,8 +32,7 @@
 ![DS DELIVER](https://github.com/anna104016/dsdeliver-sds2/blob/main/front-web/src/DS%20DELIVER.gif)
 
 #### :large_blue_circle: Layout do Projeto Mobile
-![Home Page](https://github.com/anna104016/dsdeliver-sds2/blob/main/front-mobile/assets/home%20mobile.png)![Home Page](https://github.com/anna104016/dsdeliver-sds2/blob/main/front-mobile/assets/pedidos%20mobile.png)![Home Page](https://github.com/anna104016/dsdeliver-sds2/blob/main/front-mobile/assets/detalhes%20pedido.png)
-![Home Page](https://github.com/anna104016/dsdeliver-sds2/blob/main/front-mobile/assets/confirmar%20pedido.png)
+![Home Page](hhttps://github.com/anna104016/dsdeliver-sds2/blob/main/front-mobile/assets/mobile-git.png
 
 #### :large_blue_circle: Clone esse repositório
 ##### :one: ***$ git clone https://github.com/anna104016/dsdeliver-sds2***
